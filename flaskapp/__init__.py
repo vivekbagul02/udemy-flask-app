@@ -11,7 +11,7 @@ load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.dirname(__file__)),
 
 app = Flask(__name__)
 
-app.config.from_mapping(SECRET_KEY=os.environ['SECRET_KEY'])
+app.config.from_mapping(SECRET_KEY="udemy-flask-app")
 
 @app.route('/')
 def index():
