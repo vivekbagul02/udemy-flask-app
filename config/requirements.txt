@@ -1,0 +1,4 @@
+Flask
+requests
+python-dotenv
+uwsgi==2.0.18
